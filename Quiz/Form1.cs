@@ -54,7 +54,7 @@ namespace Quiz
         }
         private Boolean isThird()
         {
-            if (!checkBox2.Checked || !checkBox3.Checked)
+            if (!checkBox2.Checked || !checkBox3.Checked || checkBox1.Checked || checkBox4.Checked)
             {
                 label3.BackColor = Color.Red;
                 return false;
